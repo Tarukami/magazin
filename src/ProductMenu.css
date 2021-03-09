@@ -1,0 +1,9 @@
+.product-menu {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border-right: 1px solid grey;
+  list-style: none;
+}

@@ -1,0 +1,28 @@
+.category-button {
+  flex-direction: column;
+  min-width: 100px;
+  background: #222;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+.category-button:hover {
+  box-shadow: 0 0 2px #fff;
+}
+.category-button.active {
+  background: #333;
+  box-shadow: 0 0 2px #fff;
+}
+.category-button span {
+  text-transform: uppercase;
+}
+.category-button .button-picture {
+  width: 2em;
+  height: 2em;
+  margin-bottom: 0.5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}

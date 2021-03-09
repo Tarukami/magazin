@@ -1,0 +1,26 @@
+.product-menu__item {
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  width: 95%;
+  border-bottom: 1px solid grey;
+  padding: .5em 1em;
+  cursor: pointer;
+  user-select: none;
+}
+.product-menu__item:hover {
+  background: #444;
+}
+.product-menu__item.active {
+  background: #444;
+  box-shadow: 0 2px 4px #000;
+}
+.product-menu__item .img {
+  width:2em;
+  height: 2em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
